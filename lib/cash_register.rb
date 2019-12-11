@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :total, :discount, :title, :price, :quantity, :last_item
+  attr_accessor :total, :discount, :title, :price, :quantity, 
   
   def initialize(discount = 0)
     @total = 0
@@ -8,7 +8,7 @@ class CashRegister
     @price = price 
     @quantity = quantity
     @items = []
-    @last_item = last_item
+    @last_item = []
   end 
   
   def add_item(title, price, quantity = 1)
@@ -17,7 +17,7 @@ class CashRegister
     until i == 0 do 
     @items << title
     i -= 1 
-  end 
+    end 
   end 
   
   def apply_discount
