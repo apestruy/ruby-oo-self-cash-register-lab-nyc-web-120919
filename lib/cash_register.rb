@@ -30,9 +30,7 @@ class CashRegister
   end 
   
   def items 
-    items = []
-     
-    return items 
+   @items 
   end 
   
   
