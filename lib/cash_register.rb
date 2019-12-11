@@ -42,4 +42,3 @@ class CashRegister
     index += 1 
     end
   end 
-end 
