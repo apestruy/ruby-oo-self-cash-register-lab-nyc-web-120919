@@ -36,8 +36,9 @@ class CashRegister
   end 
   
   def void_last_transaction
+    if total.length > 0 d
     self.total -= @transactions.pop 
-    if transactions.length = 0 
+    elsif transactions.length = 0 
       self.total = 0.0 
     end 
 end 
