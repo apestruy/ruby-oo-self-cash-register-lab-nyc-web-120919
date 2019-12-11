@@ -16,7 +16,7 @@ class CashRegister
     i = quantity
     until i == 0 do 
     @items << title
-    @transactions << price
+    @transactions << price * quantity
     i -= 1 
   end 
   end 
