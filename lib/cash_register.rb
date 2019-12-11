@@ -8,6 +8,7 @@ class CashRegister
     @price = price 
     @quantity = quantity
     @items = []
+    @transactions = []
   end 
   
   def add_item(title, price, quantity = 1)
@@ -15,6 +16,7 @@ class CashRegister
     i = quantity
     until i == 0 do 
     @items << title
+    @transactions << price
     i -= 1 
   end 
   end 
@@ -34,6 +36,6 @@ class CashRegister
   end 
   
   def void_last_transaction
-    
+    self.total = @total - 
   end 
 end 
