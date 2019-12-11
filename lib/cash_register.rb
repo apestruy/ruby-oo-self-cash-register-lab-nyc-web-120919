@@ -13,7 +13,7 @@ class CashRegister
   def add_item(title, price, quantity = 1)
     @total += (price * quantity)
     i = quantity
-    until i = 0 
+    until i = 0 do 
     @items << title
     i -= 1 
   end 
