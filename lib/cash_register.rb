@@ -36,9 +36,11 @@ class CashRegister
   end 
   
   def void_last_transaction
-     i = quantity
-    until i == 0 do 
+     index = 0 
+     while index < transactions.length do 
     self.total -= @transactions.pop 
+    index += 1 
+  end 
   end 
     
     
