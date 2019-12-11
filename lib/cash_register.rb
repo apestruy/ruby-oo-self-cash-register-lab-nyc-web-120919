@@ -26,6 +26,7 @@ class CashRegister
   def items 
     items = []
     items << @title 
+    return items 
   end 
   
   
