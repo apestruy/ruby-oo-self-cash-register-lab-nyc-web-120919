@@ -40,4 +40,4 @@ class CashRegister
     if transactions.length = 0 
       self.total = 0.0 
     end 
-  end 
+end 
