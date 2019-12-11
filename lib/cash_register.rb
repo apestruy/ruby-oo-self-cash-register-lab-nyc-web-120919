@@ -43,7 +43,7 @@ class CashRegister
     end 
     if @transactions.length == 0 
     self.total = 0 
-  end 
+    end 
   end 
     
     
@@ -54,4 +54,3 @@ class CashRegister
   #  self.total = 0 
  #   end 
  #  end 
-end 
