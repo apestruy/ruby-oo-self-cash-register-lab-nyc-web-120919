@@ -43,6 +43,7 @@ class CashRegister
   else self.total = 0 
     end 
   end 
+  end 
     
     
  #   if @transactions[0] > 0 
