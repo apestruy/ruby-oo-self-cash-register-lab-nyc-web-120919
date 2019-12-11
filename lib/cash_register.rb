@@ -41,7 +41,6 @@ class CashRegister
     self.total -= @transactions.pop 
     index += 1 
   else self.total = 0 
-    end 
   end 
   end 
     
