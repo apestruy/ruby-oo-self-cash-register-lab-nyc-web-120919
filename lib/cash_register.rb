@@ -44,4 +44,3 @@ class CashRegister
     self.total = 0 
     end 
   end 
-end 
