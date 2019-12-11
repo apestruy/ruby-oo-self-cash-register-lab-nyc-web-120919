@@ -20,6 +20,7 @@ class CashRegister
     end 
     if !discount 
       return "There is no discount to apply."
+    end 
 end 
   
   
