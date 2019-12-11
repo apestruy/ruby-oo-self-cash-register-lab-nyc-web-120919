@@ -25,7 +25,7 @@ class CashRegister
   
   def items 
     items = []
-    items << self.title 
+     
     return items 
   end 
   
