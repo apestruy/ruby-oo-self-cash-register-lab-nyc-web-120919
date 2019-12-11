@@ -40,8 +40,8 @@ class CashRegister
      while index < @transactions.length do 
     self.total -= @transactions.pop 
     index += 1 
-  else self.total = 0 
   end 
+  self.total = 0 
   end 
     
     
