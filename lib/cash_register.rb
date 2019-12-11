@@ -42,5 +42,6 @@ class CashRegister
     index += 1 
     elsif @transactions.length == 0 
     self.total = 0 
+    end
     end 
   end 
