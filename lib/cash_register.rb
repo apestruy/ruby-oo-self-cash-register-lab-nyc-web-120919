@@ -46,11 +46,4 @@ class CashRegister
     end 
   end 
   end 
-    
- #   if @transactions[0] > 0 
-  #  self.total = @total - @transactions.pop
-  #  end 
-  #  if @transactions[0] = 0 
-  #  self.total = 0 
- #   end 
- #  end 
+
